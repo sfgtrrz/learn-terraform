@@ -1,5 +1,8 @@
 # Copyright (c) HashiCorp, Inc.
 # SPDX-License-Identifier: MPL-2.0
+# defines the input variables that are referenced in main.tf, which make the configuration customizable. 
+# You will define these variables in the HCP Terraform UI later on in this tutorial.
+
 
 variable "region" {
   description = "AWS region"

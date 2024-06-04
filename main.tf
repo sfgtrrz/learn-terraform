@@ -1,5 +1,7 @@
 # Copyright (c) HashiCorp, Inc.
 # SPDX-License-Identifier: MPL-2.0
+# specifies the AWS provider, a provider plugin that Terraform will use to manage your AWS resources. 
+# The configuration defines an EC2 instance and uses a Terraform data source to access a machine image to use for the instance.
 
 provider "aws" {
   region = var.region
